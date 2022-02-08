@@ -1,0 +1,22 @@
+<?php
+
+    function soma($n1, $n2){
+        echo "O resultado da soma é " . ($n1 + $n2) ."\n";
+    }
+
+    function subtracao($n1, $n2){
+        echo "O resultado da subtração é " . ($n1 - $n2) . "\n";
+    }
+
+    function multiplicacao($n1, $n2){
+        echo "O resultado da multiplicação é " . ($n1 * $n2) . "\n";
+     }
+
+    function divisao($n1, $n2){
+        echo "O resultado da divisão é " . ($n1 / $n2) . "\n";
+    }
+
+    soma(2,2);
+    subtracao(5,3);
+    multiplicacao(5,2);
+    divisao(6,3);

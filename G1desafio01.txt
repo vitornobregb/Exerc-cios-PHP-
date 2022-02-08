@@ -1,0 +1,17 @@
+<?php
+    $filmes = array("Quem quer ficar com Marry" , "Dez coisas que eu odeio em você", "O advogado do Diabo", "Bastardos inglorios", "Perfume de mulher");
+        sort($filmes);
+
+    foreach ($filmes as $value){
+    echo "O nome do filme é " . $value . "\n";
+}
+
+
+    $contador = 5;
+    while($contador <= count($filmes) -1){
+        if($contador == -1) break;
+
+        echo "A lista de filmes é" . $filmes[$contador] . "\n";
+
+        $contador--;
+    }

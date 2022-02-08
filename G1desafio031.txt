@@ -1,0 +1,28 @@
+<?php
+
+    function lista($ordenada){
+
+        if ( $ordenada == 1 ){
+
+            $lista = array("Tomate" , "Cebola", "Refri" , "Soja", "Queijo" , "Pão" );
+            sort($lista);
+            echo "A lista de compras ordenada é: " ."\n";
+
+            foreach ( $lista as $value ){
+                echo $value ."\n";
+            }
+        }elseif ( $ordenada == 2 ){
+            $lista = array("Tomate" , "Cebola", "Refri" , "Soja", "Queijo" , "Pão" );
+            echo "A lista de compra é: " . "\n";
+
+            foreach ( $lista as $value ){
+                echo $value ."\n";
+            }
+        }else{
+            echo "Desculpa, mas não achei sua lista de compra do Zaffari.";
+        }
+
+}
+lista(1);
+lista(2);
+lista(45);
