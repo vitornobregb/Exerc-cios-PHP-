@@ -1,0 +1,22 @@
+
+<?php 
+      function lista($ordenada){  
+         $lista = array("Tomate" , "Cebola", "Refri" , "Soja", "Queijo" , "Pão" );
+
+       if ( $ordenada == 1 ){
+
+          sort($lista);
+          echo "A lista de compras ordenada é: " ."<br>";
+
+          foreach ( $lista as $value ){   
+          echo $value ."<br>";
+        }  
+        
+      }else{
+        echo "A lista de compra é: " . "<br>";
+        foreach ( $lista as $value ){   
+        echo $value ."<br>";
+        }
+      }
+    }
+    lista(3);
