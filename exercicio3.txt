@@ -1,0 +1,12 @@
+<?php
+	
+    $nome = Vítor;
+    $nota1 = 10;
+    $nota2 = 4;
+    $nota3 = 5;
+    $media = ( $nota + $nota2 + $nota3 ) / 3;
+    
+    echo "A média do(a) aluno $nome é $media.";
+      
+
+?>

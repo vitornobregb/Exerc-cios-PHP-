@@ -1,0 +1,9 @@
+<?php
+	
+    $numero = 20;
+    
+    for( $contador = 1; $contador <= $numero; $contador++ ){   
+		echo "contador: $contador \n"; 
+	}
+    
+?>

@@ -1,0 +1,16 @@
+<?php
+	
+	$numero1 = 10 ;
+	$numero2 = 10 ;
+	$soma = $numero1 + $numero2 ;
+	$soma1 = $soma + 8;
+	$soma2 = $soma - 5;
+    
+	if ( $soma > 20 ){
+		echo "O novo resultado é $soma1.";
+	}else{
+      		echo "O novo resultado é $soma2.";
+	}
+      
+
+?>

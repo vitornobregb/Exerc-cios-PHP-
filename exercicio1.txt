@@ -1,0 +1,10 @@
+<?php
+
+	$numero1 = 3;
+	$numero2 = 2;
+	$soma = $numero1 + $numero2;
+    
+
+    	echo "A soma do primeiro numero com o segundo é $soma.\n";
+
+?>
